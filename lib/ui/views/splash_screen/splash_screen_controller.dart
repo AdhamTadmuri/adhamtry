@@ -14,6 +14,7 @@ class SplashScreenController extends GetxController {
       cartService.clearCart();
       storage.setOrderPlaced(false);
     }
+    //to sol
     Future.delayed(Duration(seconds: 5)).then((value) {
       // if (storage.getFirstLunch()) {
       //   Get.off(IntroView());
